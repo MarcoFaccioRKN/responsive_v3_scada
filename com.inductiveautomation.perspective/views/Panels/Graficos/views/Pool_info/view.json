@@ -28,7 +28,9 @@
           }
         },
         "props": {
+          "liquidColor": "#0F6DD5",
           "liquidWarningColor": "#E97B5C",
+          "tankColor": "#79C8FF",
           "warningThreshold": 90
         },
         "type": "ia.display.cylindrical-tank"
@@ -53,7 +55,9 @@
           }
         },
         "props": {
+          "liquidColor": "#AF550E",
           "liquidWarningColor": "#E97B5C",
+          "tankColor": "#F9AC32",
           "warningThreshold": 90
         },
         "type": "ia.display.cylindrical-tank"
@@ -78,7 +82,9 @@
           }
         },
         "props": {
+          "liquidColor": "#507C02",
           "liquidWarningColor": "#E97B5C",
+          "tankColor": "#8CC80A",
           "warningThreshold": 90
         },
         "type": "ia.display.cylindrical-tank"
@@ -96,14 +102,16 @@
               "config": {
                 "fallbackDelay": 2.5,
                 "mode": "direct",
-                "tagPath": "[default]_Simulador_prueba_1_/Custom/tank3"
+                "tagPath": "[default]_Simulador_prueba_1_/Custom/tank0"
               },
               "type": "tag"
             }
           }
         },
         "props": {
+          "liquidColor": "#E343BA",
           "liquidWarningColor": "#E97B5C",
+          "tankColor": "#FFBCF1",
           "warningThreshold": 90
         },
         "type": "ia.display.cylindrical-tank"

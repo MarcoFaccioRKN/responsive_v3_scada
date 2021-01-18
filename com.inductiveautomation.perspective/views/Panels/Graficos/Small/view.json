@@ -65,7 +65,7 @@
                       "basis": "40px"
                     },
                     "props": {
-                      "path": "Panels/Graficos/Views/Batery_checkboxs"
+                      "path": "Panels/Graficos/Views/Pool_checkboxs"
                     },
                     "type": "ia.display.view"
                   },

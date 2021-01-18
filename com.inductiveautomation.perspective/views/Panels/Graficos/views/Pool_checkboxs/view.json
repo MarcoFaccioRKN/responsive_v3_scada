@@ -1,0 +1,136 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tserie \u003d 0\n\tenable \u003d \u0027\u0027\n\tif self.props.selected:\n\t\tenable \u003d \u0027true\u0027\n\telse:\n\t\tenable \u003d \u0027false\u0027\n\t# Create a payload to be passed with the message\n\tpayload \u003d {\u0027enable\u0027:enable, \u0027serie\u0027: serie}\n\tscope\u003d\u0027session\u0027\n\t\n\t#system.perspective.sendMessage(\u0027batery_1\u0027)\n\tsystem.perspective.sendMessage(\u0027batery\u0027, payload, scope)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Checkbox"
+        },
+        "position": {
+          "basis": "30px"
+        },
+        "props": {
+          "checkedIcon": {
+            "color": {
+              "enabled": "#4C78BE"
+            }
+          },
+          "selected": true,
+          "style": {
+            "color": "#4C78BE",
+            "fontSize": "14px",
+            "fontWeight": "bold"
+          },
+          "text": "Pileta (%) 1"
+        },
+        "type": "ia.input.checkbox"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tserie \u003d 1\n\tenable \u003d \u0027\u0027\n\tif self.props.selected:\n\t\tenable \u003d \u0027true\u0027\n\telse:\n\t\tenable \u003d \u0027false\u0027\n\t# Create a payload to be passed with the message\n\tpayload \u003d {\u0027enable\u0027:enable, \u0027serie\u0027: serie}\n\tscope\u003d\u0027session\u0027\n\t\n\t#system.perspective.sendMessage(\u0027batery_1\u0027)\n\tsystem.perspective.sendMessage(\u0027batery\u0027, payload, scope)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Checkbox_0"
+        },
+        "position": {
+          "basis": "30px"
+        },
+        "props": {
+          "checkedIcon": {
+            "color": {
+              "enabled": "#4C78BE"
+            }
+          },
+          "selected": true,
+          "style": {
+            "color": "#DB7C40",
+            "fontSize": "14px",
+            "fontWeight": "bold"
+          },
+          "text": "Pileta (%) 2"
+        },
+        "type": "ia.input.checkbox"
+      },
+      {
+        "meta": {
+          "name": "Checkbox_1"
+        },
+        "position": {
+          "basis": "30px"
+        },
+        "props": {
+          "checkedIcon": {
+            "color": {
+              "enabled": "#4C78BE"
+            }
+          },
+          "indeterminateIcon": {
+            "style": {
+              "fontWeight": "bold"
+            }
+          },
+          "selected": true,
+          "style": {
+            "color": "#99BE4C",
+            "fontSize": "14px",
+            "fontWeight": "bold"
+          },
+          "text": "Pileta (%) 3"
+        },
+        "type": "ia.input.checkbox"
+      },
+      {
+        "meta": {
+          "name": "Checkbox_2"
+        },
+        "position": {
+          "basis": "30px"
+        },
+        "props": {
+          "checkedIcon": {
+            "color": {
+              "enabled": "#4C78BE"
+            }
+          },
+          "selected": true,
+          "style": {
+            "color": "#F14FD8",
+            "fontSize": "14px",
+            "fontWeight": "bold"
+          },
+          "text": "Pileta (%) 4"
+        },
+        "type": "ia.input.checkbox"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "wrap": "wrap"
+    },
+    "type": "ia.container.flex"
+  }
+}

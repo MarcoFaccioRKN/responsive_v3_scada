@@ -16,66 +16,28 @@
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "EmbeddedView"
-                            },
-                            "position": {
-                              "basis": "320px"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Batery_checkboxs"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body_checkbox"
-                        },
-                        "position": {
-                          "basis": "10%",
-                          "grow": 1
-                        },
-                        "props": {
-                          "direction": "column"
-                        },
-                        "type": "ia.container.flex"
-                      },
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "row1_body_embeddedChart"
-                            },
-                            "position": {
-                              "basis": "100%"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Batery_chart"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body"
-                        },
-                        "position": {
-                          "basis": "90%",
-                          "grow": 1
-                        },
-                        "type": "ia.container.flex"
-                      }
-                    ],
                     "meta": {
-                      "name": "row1_body"
+                      "name": "EmbeddedView"
                     },
                     "position": {
-                      "basis": "200px"
+                      "basis": "10%"
                     },
-                    "type": "ia.container.flex"
+                    "props": {
+                      "path": "Panels/Graficos/Views/Batery_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "basis": "90%"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/Views/Batery_info"
+                    },
+                    "type": "ia.display.view"
                   }
                 ],
                 "meta": {
@@ -85,7 +47,6 @@
                   "basis": "200px"
                 },
                 "props": {
-                  "direction": "column",
                   "style": {
                     "marginBottom": "3px",
                     "marginLeft": "3px",
@@ -98,66 +59,28 @@
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "EmbeddedView"
-                            },
-                            "position": {
-                              "basis": "320px"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Batery_checkboxs"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body_checkbox"
-                        },
-                        "position": {
-                          "basis": "10%",
-                          "grow": 1
-                        },
-                        "props": {
-                          "direction": "column"
-                        },
-                        "type": "ia.container.flex"
-                      },
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "row1_body_embeddedTanks"
-                            },
-                            "position": {
-                              "basis": "100%"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Pool_chart"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body_tanks"
-                        },
-                        "position": {
-                          "basis": "90%",
-                          "grow": 1
-                        },
-                        "type": "ia.container.flex"
-                      }
-                    ],
                     "meta": {
-                      "name": "row1_body"
+                      "name": "EmbeddedView"
                     },
                     "position": {
-                      "basis": "200px"
+                      "basis": "10%"
                     },
-                    "type": "ia.container.flex"
+                    "props": {
+                      "path": "Panels/Graficos/Views/Pool_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "basis": "90%"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/Views/Pool_info"
+                    },
+                    "type": "ia.display.view"
                   }
                 ],
                 "meta": {
@@ -167,7 +90,6 @@
                   "basis": "200px"
                 },
                 "props": {
-                  "direction": "column",
                   "style": {
                     "marginBottom": "3px",
                     "marginLeft": "3px",
@@ -180,66 +102,28 @@
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "EmbeddedView"
-                            },
-                            "position": {
-                              "basis": "320px"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Batery_checkboxs"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body_checkbox"
-                        },
-                        "position": {
-                          "basis": "10%",
-                          "grow": 1
-                        },
-                        "props": {
-                          "direction": "column"
-                        },
-                        "type": "ia.container.flex"
-                      },
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "row1_body_embeddedChart"
-                            },
-                            "position": {
-                              "basis": "100%"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Batery_chart"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body"
-                        },
-                        "position": {
-                          "basis": "90%",
-                          "grow": 1
-                        },
-                        "type": "ia.container.flex"
-                      }
-                    ],
                     "meta": {
-                      "name": "row1_body"
+                      "name": "EmbeddedView"
                     },
                     "position": {
-                      "basis": "200px"
+                      "basis": "10%"
                     },
-                    "type": "ia.container.flex"
+                    "props": {
+                      "path": "Panels/Graficos/Views/Batery_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "basis": "90%"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/Views/Batery_info"
+                    },
+                    "type": "ia.display.view"
                   }
                 ],
                 "meta": {
@@ -249,7 +133,6 @@
                   "basis": "200px"
                 },
                 "props": {
-                  "direction": "column",
                   "style": {
                     "marginBottom": "3px",
                     "marginLeft": "3px",
@@ -262,66 +145,28 @@
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "EmbeddedView"
-                            },
-                            "position": {
-                              "basis": "320px"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Batery_checkboxs"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body_checkbox"
-                        },
-                        "position": {
-                          "basis": "10%",
-                          "grow": 1
-                        },
-                        "props": {
-                          "direction": "column"
-                        },
-                        "type": "ia.container.flex"
-                      },
-                      {
-                        "children": [
-                          {
-                            "meta": {
-                              "name": "row1_body_embeddedChart"
-                            },
-                            "position": {
-                              "basis": "100%"
-                            },
-                            "props": {
-                              "path": "Panels/Graficos/Views/Batery_chart"
-                            },
-                            "type": "ia.display.view"
-                          }
-                        ],
-                        "meta": {
-                          "name": "row1_body"
-                        },
-                        "position": {
-                          "basis": "90%",
-                          "grow": 1
-                        },
-                        "type": "ia.container.flex"
-                      }
-                    ],
                     "meta": {
-                      "name": "row1_body"
+                      "name": "EmbeddedView"
                     },
                     "position": {
-                      "basis": "200px"
+                      "basis": "10%"
                     },
-                    "type": "ia.container.flex"
+                    "props": {
+                      "path": "Panels/Graficos/Views/Batery_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "basis": "90%"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/Views/Batery_info"
+                    },
+                    "type": "ia.display.view"
                   }
                 ],
                 "meta": {
@@ -331,7 +176,6 @@
                   "basis": "200px"
                 },
                 "props": {
-                  "direction": "column",
                   "style": {
                     "marginBottom": "3px",
                     "marginLeft": "3px",
