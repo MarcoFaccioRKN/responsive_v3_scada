@@ -1,0 +1,120 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "CylindricalTank"
+        },
+        "position": {
+          "basis": "136px"
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Simulador_prueba_1_/Custom/tank0"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "liquidWarningColor": "#E97B5C",
+          "warningThreshold": 90
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_0"
+        },
+        "position": {
+          "basis": "136px"
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Simulador_prueba_1_/Custom/tank1"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "liquidWarningColor": "#E97B5C",
+          "warningThreshold": 90
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_1"
+        },
+        "position": {
+          "basis": "136px"
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Simulador_prueba_1_/Custom/tank2"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "liquidWarningColor": "#E97B5C",
+          "warningThreshold": 90
+        },
+        "type": "ia.display.cylindrical-tank"
+      },
+      {
+        "meta": {
+          "name": "CylindricalTank_2"
+        },
+        "position": {
+          "basis": "136px"
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]_Simulador_prueba_1_/Custom/tank3"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "liquidWarningColor": "#E97B5C",
+          "warningThreshold": 90
+        },
+        "type": "ia.display.cylindrical-tank"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "justify": "space-evenly"
+    },
+    "type": "ia.container.flex"
+  }
+}

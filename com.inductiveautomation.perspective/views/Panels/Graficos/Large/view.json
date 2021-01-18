@@ -27,7 +27,7 @@
                               "basis": "320px"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_checkboxs"
+                              "path": "Panels/Graficos/Views/Batery_checkboxs"
                             },
                             "type": "ia.display.view"
                           }
@@ -54,13 +54,13 @@
                               "basis": "100%"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_chart"
+                              "path": "Panels/Graficos/Views/Batery_chart"
                             },
                             "type": "ia.display.view"
                           }
                         ],
                         "meta": {
-                          "name": "row1_body_chart"
+                          "name": "row1_body"
                         },
                         "position": {
                           "basis": "90%",
@@ -109,7 +109,7 @@
                               "basis": "320px"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_checkboxs"
+                              "path": "Panels/Graficos/Views/Batery_checkboxs"
                             },
                             "type": "ia.display.view"
                           }
@@ -130,19 +130,19 @@
                         "children": [
                           {
                             "meta": {
-                              "name": "row1_body_embeddedChart"
+                              "name": "row1_body_embeddedTanks"
                             },
                             "position": {
                               "basis": "100%"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_chart"
+                              "path": "Panels/Graficos/Views/Pool_chart"
                             },
                             "type": "ia.display.view"
                           }
                         ],
                         "meta": {
-                          "name": "row1_body_chart"
+                          "name": "row1_body_tanks"
                         },
                         "position": {
                           "basis": "90%",
@@ -191,7 +191,7 @@
                               "basis": "320px"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_checkboxs"
+                              "path": "Panels/Graficos/Views/Batery_checkboxs"
                             },
                             "type": "ia.display.view"
                           }
@@ -218,13 +218,13 @@
                               "basis": "100%"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_chart"
+                              "path": "Panels/Graficos/Views/Batery_chart"
                             },
                             "type": "ia.display.view"
                           }
                         ],
                         "meta": {
-                          "name": "row1_body_chart"
+                          "name": "row1_body"
                         },
                         "position": {
                           "basis": "90%",
@@ -273,7 +273,7 @@
                               "basis": "320px"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_checkboxs"
+                              "path": "Panels/Graficos/Views/Batery_checkboxs"
                             },
                             "type": "ia.display.view"
                           }
@@ -300,13 +300,13 @@
                               "basis": "100%"
                             },
                             "props": {
-                              "path": "Panels/Graficos/views/batery_chart"
+                              "path": "Panels/Graficos/Views/Batery_chart"
                             },
                             "type": "ia.display.view"
                           }
                         ],
                         "meta": {
-                          "name": "row1_body_chart"
+                          "name": "row1_body"
                         },
                         "position": {
                           "basis": "90%",
