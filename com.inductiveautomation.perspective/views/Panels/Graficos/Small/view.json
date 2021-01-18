@@ -1,0 +1,228 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 1000,
+      "width": 600
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "EmbeddedView"
+                    },
+                    "position": {
+                      "basis": "40px"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "grow": 1,
+                      "shrink": 0
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_chart",
+                      "useDefaultViewWidth": true
+                    },
+                    "type": "ia.display.view"
+                  }
+                ],
+                "meta": {
+                  "name": "row1"
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "marginBottom": "3px",
+                    "marginTop": "3px",
+                    "overflow": "visible"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "EmbeddedView"
+                    },
+                    "position": {
+                      "basis": "40px"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "basis": "320px"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_chart",
+                      "useDefaultViewWidth": true
+                    },
+                    "type": "ia.display.view"
+                  }
+                ],
+                "meta": {
+                  "name": "row2"
+                },
+                "position": {
+                  "basis": "200px"
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "marginBottom": "3px",
+                    "marginTop": "3px"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "EmbeddedView"
+                    },
+                    "position": {
+                      "basis": "40px"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "basis": "320px"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_chart",
+                      "useDefaultViewWidth": true
+                    },
+                    "type": "ia.display.view"
+                  }
+                ],
+                "meta": {
+                  "name": "row3"
+                },
+                "position": {
+                  "basis": "200px"
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "marginBottom": "3px",
+                    "marginTop": "3px"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "EmbeddedView"
+                    },
+                    "position": {
+                      "basis": "40px"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_checkboxs"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "EmbeddedView_0"
+                    },
+                    "position": {
+                      "basis": "320px"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/views/batery_chart",
+                      "useDefaultViewWidth": true
+                    },
+                    "type": "ia.display.view"
+                  }
+                ],
+                "meta": {
+                  "name": "row4"
+                },
+                "position": {
+                  "basis": "200px"
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "marginBottom": "3px",
+                    "marginTop": "3px"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "FlowBack"
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "TabContainer"
+        },
+        "position": {
+          "basis": "100%"
+        },
+        "props": {
+          "menuType": "modern",
+          "tabStyle": {
+            "active": {
+              "backgroundColor": "#4C78BE",
+              "color": "#FFFFFF"
+            }
+          },
+          "tabs": [
+            "FlowBack",
+            "General",
+            "FlushTank"
+          ]
+        },
+        "type": "ia.container.tab"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

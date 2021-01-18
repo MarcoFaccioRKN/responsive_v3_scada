@@ -1,0 +1,16 @@
+{
+  "scope": "D",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "fissban",
+      "timestamp": "2021-01-18T12:41:22Z"
+    },
+    "lastModificationSignature": "2f4440b738bb21374cb781a75ec1eb12417da5c0b8c381ea3bd2817e760a91e8"
+  }
+}

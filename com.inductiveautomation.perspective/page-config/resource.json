@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "fissban",
+      "timestamp": "2021-01-15T12:44:01Z"
+    },
+    "lastModificationSignature": "e7f992904c9ff182062fa5ad9c8845174af9a861d9fc99cabbe25af54536c4ba"
+  }
+}

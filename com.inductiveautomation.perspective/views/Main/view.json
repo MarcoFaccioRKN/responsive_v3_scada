@@ -1,0 +1,237 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 2000,
+      "width": 1200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Dropdown"
+            },
+            "position": {
+              "basis": "256px"
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "bidirectional": true,
+                    "path": "session.props.theme"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "options": [
+                {
+                  "label": "light",
+                  "value": "light"
+                },
+                {
+                  "label": "dark",
+                  "value": "dark"
+                }
+              ]
+            },
+            "type": "ia.input.dropdown"
+          }
+        ],
+        "meta": {
+          "name": "Theme"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "props": {
+          "justify": "flex-end"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Image"
+                },
+                "position": {
+                  "basis": "360px"
+                },
+                "props": {
+                  "fit": {
+                    "mode": "cover"
+                  },
+                  "source": "http://martinsantarelli.com/projects/rkn/logo-600-rkn.png"
+                },
+                "type": "ia.display.image"
+              }
+            ],
+            "meta": {
+              "name": "TopLogo"
+            },
+            "position": {
+              "basis": "30%"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Image"
+                    },
+                    "position": {
+                      "basis": "24px"
+                    },
+                    "props": {
+                      "fit": {
+                        "height": 24,
+                        "width": 24
+                      },
+                      "source": "/system/images/Builtin/icons/24/warning.png"
+                    },
+                    "type": "ia.display.image"
+                  },
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "170px"
+                    },
+                    "props": {
+                      "style": {
+                        "color": "#DB4B4B",
+                        "textAlign": "center"
+                      },
+                      "text": "147 alarmas"
+                    },
+                    "type": "ia.display.label"
+                  }
+                ],
+                "meta": {
+                  "name": "FlexContainer"
+                },
+                "position": {
+                  "basis": "250px",
+                  "grow": 1,
+                  "shrink": 0
+                },
+                "props": {
+                  "justify": "flex-end"
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "TopInfo"
+            },
+            "position": {
+              "basis": "70%"
+            },
+            "props": {
+              "alignItems": "flex-start"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Top"
+        },
+        "position": {
+          "basis": "200px",
+          "shrink": 0
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "small"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/Small"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "large"
+                    },
+                    "position": {
+                      "size": "large"
+                    },
+                    "props": {
+                      "path": "Panels/Graficos/Large"
+                    },
+                    "type": "ia.display.view"
+                  }
+                ],
+                "meta": {
+                  "name": "BreakpointContainer"
+                },
+                "position": {
+                  "basis": "100%"
+                },
+                "props": {
+                  "breakpoint": 600
+                },
+                "type": "ia.container.breakpt"
+              }
+            ],
+            "meta": {
+              "name": "FlexGraficos"
+            },
+            "position": {
+              "tabIndex": 2
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "TabContainer"
+        },
+        "position": {
+          "basis": "800px",
+          "shrink": 0
+        },
+        "props": {
+          "menuType": "modern",
+          "tabs": [
+            "Servicios",
+            "Mediciones",
+            "Graficos",
+            "Actividades",
+            "Equipos",
+            "Ensayos",
+            "Reportes"
+          ]
+        },
+        "type": "ia.container.tab"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

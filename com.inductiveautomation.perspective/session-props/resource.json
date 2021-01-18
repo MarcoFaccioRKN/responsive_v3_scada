@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "props.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "fissban",
+      "timestamp": "2021-01-15T18:44:20Z"
+    },
+    "lastModificationSignature": "48b58fdebcad4d4c16c4c4ad3f04b8b673cc364506f23e7670f3a934b76d6f16"
+  }
+}
